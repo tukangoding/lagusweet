@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Komunitas Pecinta Musik Religi Semarang"
+theme = "nasyidsemarang"
+summaryLength = 10
+paginate = 2
+
+[params]
+    Description = "komunitas pecinta nasyid"

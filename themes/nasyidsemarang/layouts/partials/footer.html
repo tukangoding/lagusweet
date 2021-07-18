@@ -1,0 +1,12 @@
+<hr>
+
+Tags:
+<ul>
+    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <a href="/tags/{{$name}}">{{$name}}</a> -
+    {{end}}
+</ul>
+
+<p>
+    dibuat dengan penuh luv oleh <a href="https://ghufranelazizi.com">Ghufran El-Azizi</a>
+</p>
